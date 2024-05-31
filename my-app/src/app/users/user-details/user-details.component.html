@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="detail-box">
+      <h2>Usuario Detalles</h2>
+      <div *ngIf="user">
+        <p><strong>ID:</strong> {{ user.id }}</p>
+        <p><strong>Name:</strong> {{ user.name }}</p>
+      </div>
+      <div *ngIf="!user">
+        <p>User not found.</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  

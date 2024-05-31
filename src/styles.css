@@ -1,0 +1,84 @@
+/* styles.css */
+
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2; /* Fondo gris claro */
+  color: #333; /* Texto oscuro */
+  line-height: 1.6;
+}
+
+/* Estilo para la barra de navegación */
+nav {
+  background-color: #333; /* Fondo negro */
+  color: #fff; /* Texto blanco */
+  padding: 10px;
+  position: fixed; /* Fijar la barra de navegación */
+  bottom: 0; /* Alinear en la parte inferior */
+  left: 0; /* Alinear a la izquierda */
+  width: 100%; /* Ancho completo */
+}
+
+nav a {
+  color: #fff; /* Texto blanco */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 20px; /* Margen derecho entre las opciones */
+  transition: color 0.3s ease; /* Transición suave de color */
+}
+
+nav a:hover {
+  color: #FFD700; /* Cambio de color al dorado al pasar el mouse */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 80px auto 20px auto; /* Margen superior grande, margen inferior pequeño */
+  padding: 20px;
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para los títulos */
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 20px; /* Margen inferior grande */
+}
+
+/* Estilo para los usuarios */
+.users {
+  list-style: none; /* Eliminar viñetas de la lista */
+  padding: 0;
+}
+
+.users li {
+  margin-bottom: 10px; /* Margen inferior entre usuarios */
+}
+
+/* Estilo para las publicaciones */
+.posts {
+  list-style: none; /* Eliminar viñetas de la lista */
+  padding: 0;
+}
+
+.posts li {
+  background-color: #f9f9f9; /* Fondo gris claro */
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px; /* Margen inferior entre publicaciones */
+}
+
+.posts li h3 {
+  font-weight: 700;
+  margin-bottom: 10px; /* Margen inferior pequeño */
+}
+
+.posts li p {
+  margin-bottom: 10px; /* Margen inferior pequeño */
+}
